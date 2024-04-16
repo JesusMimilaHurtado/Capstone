@@ -1,0 +1,26 @@
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+#one{
+    background-image: url("/images/shop.avif");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    
+}
+.Bluey{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-weight: bolder;
+    font-size: 3em;
+}
+.row{
+    display:flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    margin-top: 10px;
+    text-align: center;
+}
