@@ -67,6 +67,14 @@ body{
 .nav-item{
     margin:0 20px 10px 0;
     font-size: 1.5em;
+    font-weight: 500;
+}
+#prod{
+  padding-top:7px;
+  font-size:1.5em;
+}
+#drop a{
+    color: rgb(132, 151, 212);
 }
 a:link{
     text-decoration: none;
