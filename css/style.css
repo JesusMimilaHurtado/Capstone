@@ -5,47 +5,13 @@ body{
     background-image: url("/images/shop.avif");
     background-size: cover; 
     background-repeat: no-repeat;
-    background-position: center center;
-}
-#one{
-    height: 100vh;  
-}
-#two{
-    background-color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;  
-}
-#three p{
-    display:flex;
-    flex-grow:1;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    height: 20vh;
-
-    
-}
-.scroll-container, .container-fluid{
+    background-position: center;
     height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-}
-.snap{
-    scroll-snap-align:start;
-}
-.title h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height:50vh;
-}
-.Blue{
-    display: flex;
-    justify-content: center;
-    height: 90vh;
     width: 100vw;
+
+}
+h1{
+    text-align: center;
     font-weight: bolder;
     font-size: 3.5em;
 }
@@ -53,7 +19,9 @@ body{
     display:flex;
     justify-content: flex-start;
     align-items:flex-start;
-    margin-top: 10px;
+    width:100vw;
+    flex:1 1 100vw;
+    margin-top: 18px;
     text-align: center;
     
 }
@@ -72,26 +40,6 @@ a:link{
     text-decoration: none;
     color:rgb(209, 228, 245);
 }
-.meat{
-    width:35%;
-    margin: 0 auto 0 auto;
-
-}
-.meat1{
-    text-align: center;
-}
-.meat2{
-    margin-top: 35px 20px 0 35px;
-    text-align: center;
-    font-size:larger;
-}
-.meat3{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    color:rgb(233, 255, 249);
-}
 a:visited{
     color:rgb(209, 228, 245);
-    /*color for h1 rgb(132, 151, 212)*/
 }
