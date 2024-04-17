@@ -1,6 +1,12 @@
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
+body{
+    background-image: url("/images/shop.avif");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 #one{
     background-image: url("/images/shop.avif");
     background-size: cover; 
@@ -9,13 +15,41 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     height: 100vh;
     
 }
+#two{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;  
+}
+#three p{
+    display:flex;
+    flex-grow:1;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 20vh;
+
+    
+}
+.scroll-container, .container-fluid{
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+.snap{
+    scroll-snap-align:start;
+}
+h1{
+    margin-top: 10px;
+}
 .Bluey{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     font-weight: bolder;
-    font-size: 3em;
+    font-size: 3.5em;
 }
 .row{
     display:flex;
@@ -23,4 +57,42 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     align-items:flex-start;
     margin-top: 10px;
     text-align: center;
+    
+}
+.nav{
+    display:flex;
+    justify-content: center;
+    position:-webkit-sticky;
+    position:sticky;
+    top: 0;
+}
+.nav-item{
+    margin:0 20px 10px 0;
+    font-size: 1.5em;
+}
+a:link{
+    text-decoration: none;
+    color:rgb(209, 228, 245);
+}
+.meat{
+    width:35%;
+    margin: 0 auto 0 auto;
+
+}
+.meat1{
+    text-align: center;
+}
+.meat2{
+    margin-top: 35px 20px 0 35px;
+    text-align: center;
+    font-size:larger;
+}
+.meat3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:rgb(233, 255, 249);
+}
+a:visited{
+    color:rgb(209, 228, 245);
 }
