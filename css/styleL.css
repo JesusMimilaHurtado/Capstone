@@ -42,3 +42,113 @@
 #nav{
     margin-bottom: 10px;
 }
+/*styles to so i only have 1 css link in login*/
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+body{
+  background-image: url("/images/shop.avif");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#one{
+  height: 100vh;  
+}
+#two{
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;  
+}
+#three p{
+  display:flex;
+  flex-grow:1;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 20vh;
+
+  
+}
+.scroll-container, .container-fluid{
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+.snap{
+  scroll-snap-align:start;
+}
+.title h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:50vh;
+}
+.Bluey{
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  width: 100vw;
+  font-weight: bolder;
+  font-size: 3.5em;
+}
+.row{
+  display:flex;
+  justify-content: flex-start;
+  align-items:flex-start;
+  margin-top: 10px;
+  text-align: center;
+  
+}
+.nav{
+  display:flex;
+  justify-content: center;
+  position:-webkit-sticky;
+  position:sticky;
+  top: 0;
+}
+.nav-item{
+  margin:0 20px 10px 0;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+#prod{
+padding-top:7px;
+font-size:1.5em;
+}
+#drop a{
+  color: rgb(132, 151, 212);
+}
+a:link{
+  text-decoration: none;
+  color:rgb(209, 228, 245);
+}
+.meat{
+  width:35%;
+  margin: 0 auto 0 auto;
+
+}
+.meat1{
+  text-align: center;
+}
+.meat2{
+  margin-top: 35px 20px 0 35px;
+  text-align: center;
+  font-size:larger;
+}
+.meat3{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:rgb(233, 255, 249);
+  text-align: center;
+}
+a:visited{
+  color:rgb(209, 228, 245);
+  /*color for h1 rgb(132, 151, 212)*/
+}
+#out img{
+  border-radius: 60%;
+}

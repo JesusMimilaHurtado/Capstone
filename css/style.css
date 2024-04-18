@@ -10,6 +10,9 @@ body{
     width: 100vw;
 
 }
+header nav,img{
+    margin-top: 15px;
+}
 h1{
     text-align: center;
     font-weight: bolder;
@@ -156,4 +159,15 @@ figcaption{
 }
 #out img{
     border-radius: 60%;
+}
+#recom{
+    display: flex;
+    justify-content: space-evenly;
+}
+#baker{
+    background-image: url('/images/baker.jpeg'); 
+    border-radius: 100%;
+    margin-top: 275px;
+    height: 700px;
+    width: 700px;
 }
