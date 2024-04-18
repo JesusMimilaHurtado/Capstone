@@ -74,4 +74,16 @@
   .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
   }
-</style>
+.mb-4{
+    height:20em;
+    width:20em;
+    border-radius: 100px;
+}
+#me{
+    color:rgb(139, 199, 252);
+}
+#in{
+    color:rgb(139, 199, 252);; 
+    font-weight:bolder; 
+    font-size: 35px;
+}
