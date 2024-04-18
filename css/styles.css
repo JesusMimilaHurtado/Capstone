@@ -104,3 +104,6 @@ a:visited{
     color:rgb(209, 228, 245);
     /*color for h1 rgb(132, 151, 212)*/
 }
+#out img{
+    border-radius: 60%;
+}
