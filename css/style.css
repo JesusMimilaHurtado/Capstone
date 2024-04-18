@@ -6,7 +6,7 @@ body{
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
 
 }
@@ -67,4 +67,27 @@ figcaption{
 lt{
     font-weight: bold;
     font-size: larger;
+}
+#t-img{
+    height: fit-content;
+    margin:30px 30px 0 30px;
+    border-radius:25px;
+}
+.card-content{
+    height: fit-content;
+    margin:0 30px 30px 30px;
+    background-color: aliceblue;
+    border-radius:25px;
+    width:calc(100%)
+}
+.card-content a{
+    height: fit-content;
+    margin:0 30px 30px 30px;
+    border-radius:25px;
+}
+.scroll-container1{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
 }
