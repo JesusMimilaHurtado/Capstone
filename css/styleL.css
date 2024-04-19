@@ -1,92 +1,121 @@
 .b-example-divider {
-    width: 50%;
-    height: 3rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
-    border-width: 1px 0;
-    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-  }
+  width: 50%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
 
-  .b-example-vr {
-    flex-shrink: 0;
-    width: 1.5rem;
-    height: 100vh;
-  }
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
 
-  .bi {
-    vertical-align: -.125em;
-    fill: currentColor;
-  }
-  .bd-mode-toggle {
-    z-index: 1500;
-  }
+#pass{
+  margin-top: 5px;
+}
 
-  .bd-mode-toggle .dropdown-menu .active .bi {
-    display: block !important;
-  }
-.mb-4{
-    height:20em;
-    width:20em;
-    border-radius: 100px;
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
 }
-#me{
-    color:rgb(139, 199, 252);
-    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+
+.bd-mode-toggle {
+  z-index: 1500;
 }
-#in{
-    color:rgb(139, 199, 252);; 
-    font-weight:bolder; 
-    font-size: 35px;
-    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
 }
-#nav{
-    margin-bottom: 10px;
+
+.mb-4 {
+  height: 20em;
+  width: 20em;
+  border-radius: 100px;
 }
+
+#me {
+  color: rgb(139, 199, 252);
+  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+#in {
+  color: rgb(139, 199, 252);
+  ;
+  font-weight: bolder;
+  font-size: 35px;
+  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+#nav {
+  margin-bottom: 10px;
+}
+
 /*styles to so i only have 1 css link in login*/
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
   display: block;
 }
-body{
+
+body {
   background-image: url("/images/shop.avif");
-  background-size: cover; 
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
-#one{
-  height: 100vh;  
+
+#one {
+  height: 100vh;
 }
-#two{
+
+#two {
   background-color: aliceblue;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;  
+  height: 80vh;
 }
-#three p{
-  display:flex;
-  flex-grow:1;
+
+#three p {
+  display: flex;
+  flex-grow: 1;
   justify-content: center;
   align-items: center;
   background-color: black;
   height: 20vh;
 
-  
+
 }
-.scroll-container, .container-fluid{
+
+.scroll-container,
+.container-fluid {
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
-.snap{
-  scroll-snap-align:start;
+
+.snap {
+  scroll-snap-align: start;
 }
-.title h1{
+
+.title h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height:50vh;
+  height: 50vh;
 }
-.Bluey{
+
+.Bluey {
   display: flex;
   justify-content: center;
   height: 90vh;
@@ -94,61 +123,73 @@ body{
   font-weight: bolder;
   font-size: 3.5em;
 }
-.row{
-  display:flex;
+
+.row {
+  display: flex;
   justify-content: flex-start;
-  align-items:flex-start;
+  align-items: flex-start;
   margin-top: 10px;
   text-align: center;
-  
+
 }
-.nav{
-  display:flex;
+
+.nav {
+  display: flex;
   justify-content: center;
-  position:-webkit-sticky;
-  position:sticky;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0;
 }
-.nav-item{
-  margin:0 20px 10px 0;
+
+.nav-item {
+  margin: 0 20px 10px 0;
   font-size: 1.5em;
   font-weight: 500;
 }
-#prod{
-padding-top:7px;
-font-size:1.5em;
+
+#prod {
+  padding-top: 7px;
+  font-size: 1.5em;
 }
-#drop a{
+
+#drop a {
   color: rgb(132, 151, 212);
 }
-a:link{
+
+a:link {
   text-decoration: none;
-  color:rgb(209, 228, 245);
+  color: rgb(209, 228, 245);
 }
-.meat{
-  width:35%;
+
+.meat {
+  width: 35%;
   margin: 0 auto 0 auto;
 
 }
-.meat1{
+
+.meat1 {
   text-align: center;
 }
-.meat2{
+
+.meat2 {
   margin-top: 35px 20px 0 35px;
   text-align: center;
-  font-size:larger;
+  font-size: larger;
 }
-.meat3{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  color:rgb(233, 255, 249);
+
+.meat3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(233, 255, 249);
   text-align: center;
 }
-a:visited{
-  color:rgb(209, 228, 245);
+
+a:visited {
+  color: rgb(209, 228, 245);
   /*color for h1 rgb(132, 151, 212)*/
 }
-#out img{
+
+#out img {
   border-radius: 60%;
 }
