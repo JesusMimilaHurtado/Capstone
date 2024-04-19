@@ -46,9 +46,8 @@ body {
 
 }
 
-.scroll-container,
-.container-fluid {
-    height: 100vh;
+.scroll-container,.container-fluid {
+    height: 95vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
 }
@@ -64,13 +63,32 @@ body {
     height: 50vh;
 }
 
-.Bluey {
+#Budi h1 {
     display: flex;
     justify-content: center;
-    height: 90vh;
-    width: 100vw;
     font-weight: bolder;
     font-size: 3.5em;
+}
+
+#Budi p{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: 650;
+    margin: 55px 400px 0 400px;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+
+
+}
+
+#Budi li{
+    display: inline;
+    font-weight: 650;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+#list-inline-item{
+    margin-left: 575px;
 }
 
 .row {
