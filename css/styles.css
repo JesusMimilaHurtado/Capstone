@@ -30,9 +30,14 @@ body {
     height: 80vh;
 }
 
+#three{
+    height: fit-content;
+}
+
 #three p {
     display: flex;
     flex-grow: 1;
+    margin:0 0 0 0;
     justify-content: center;
     align-items: center;
     background-color: black;
