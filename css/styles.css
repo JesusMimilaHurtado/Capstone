@@ -11,11 +11,43 @@ section {
     display: block;
 }
 
+@media screen and (max-width: 844px) {
+    .meat1{
+        display:none;
+    }
+    #team{
+        display:none;
+    }
+    #about {
+      display:none;
+      margin: 0 0 0 0 !important;
+    }
+    .nav{
+        margin-left: 0 !important;
+        font-size: 15px;
+    }
+}
+
+#team{
+    display: flex;
+    flex-direction: column;
+    align-self:flex-start;
+    margin-top:90px;
+}
+
+header{
+    margin-left: 120px;
+}
+
 body {
     background-image: url("/images/shop.avif");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center ;
+}
+
+.meat{
+    border: 5px solid rgb(0, 0, 0);
 }
 
 #one {
@@ -23,11 +55,11 @@ body {
 }
 
 #two {
-    background-color: aliceblue;
+    background-color: rgb(248, 252, 255);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
 }
 
 #three{
@@ -97,7 +129,12 @@ body {
     align-items: flex-start;
     margin-top: 10px;
     text-align: center;
+    padding: 0 10px 0 10px;
 
+}
+
+#mis{
+    padding-top:5px;
 }
 
 .nav {
@@ -130,7 +167,7 @@ a:link {
 
 .meat {
     width: 35%;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 0 21.3em;
 
 }
 

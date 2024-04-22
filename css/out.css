@@ -69,6 +69,21 @@ section {
   display: block;
 }
 
+@media screen and (max-width: 844px) {
+  #nav{
+    font-size: 10px ;
+    margin: 0 0 0 0 !important;
+  }
+  .nav{
+    font-size: 15px;
+    margin-left: 0;
+}
+}
+
+header{
+  margin-left: 120px;
+}
+
 body {
   background-image: url("/images/shop.avif");
   background-size: cover;
